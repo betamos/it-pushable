@@ -4,7 +4,7 @@
   "description": "Pushable iterable",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && nyc --reporter=lcov --reporter=text ava --verbose",
+    "test": "nyc --reporter=lcov --reporter=text ava --verbose",
     "lint": "standard"
   },
   "keywords": [
@@ -22,7 +22,7 @@
     "standard": "^14.1.0"
   },
   "dependencies": {
-    "fast-fifo": "^1.0.0"
+    "p-fifo": "^1.0.0"
   },
   "repository": {
     "type": "git",
